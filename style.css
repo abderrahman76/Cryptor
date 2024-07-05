@@ -1,0 +1,99 @@
+/* Set the font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-image: url(7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* White with 90% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Small shadow */
+  }
+  
+/* Style the page heading */
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Style the form input fields */
+input[type="text"], input[type="number"] {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    width: 80%;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the form submit buttons */
+input[type="submit"] {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style the form submit buttons on hover */
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+/* Style the output message */
+p {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+.title {
+    background-image: linear-gradient(to right, #87CEFA, #FFA07A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;  
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #87CEFA;
+    background-image: linear-gradient(to right, #87CEFA, #FFA07A);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #FFA07A;
+    background-image: linear-gradient(to right, #FFA07A, #87CEFA);
+  }
+  
